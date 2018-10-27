@@ -53,14 +53,14 @@ void List::insertData(string bloodSugar)
 		{
 			if (dayCount <= 7) //This is used to print the week one summary
 			{
-				cout << "		Weekly One Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekOne.sum() << endl << "Weekly Max: " << weekOne.max() << endl
+				cout << "		Week One Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekOne.sum() << endl << "Weekly Max: " << weekOne.max() << endl
 					<< "Weekly Min: " << weekOne.min() << endl << "Valid Count: " << weekOne.size() << endl << "Greatest Delta Value: " << delta(weekOneArray) <<
 					" between days " << between << " and " << between + 1 << endl;
 				cin >> bloodSugar; //input next value
 			}
 			else //Prints out the week two summary
 			{
-				cout << "		Weekly Two Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekTwo.sum() << endl << "Weekly Max: " << weekTwo.max() << endl
+				cout << "		Week Two Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekTwo.sum() << endl << "Weekly Max: " << weekTwo.max() << endl
 					<< "Weekly Min: " << weekTwo.min() << endl << "Valid Count: " << weekTwo.size() << endl << "Greatest Delta Value: " << delta(weekTwoArray) <<
 					" between days " << between << " and " << between + 1 << endl;
 				cin >> bloodSugar;// input next value
@@ -71,14 +71,14 @@ void List::insertData(string bloodSugar)
 		{
 			if (dayCount <= 7) //This is used to print the week one summary
 			{
-				cout << "		Weekly One Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekOne.sum() << endl << "Weekly Max: " << weekOne.max() << endl
+				cout << "		Week One Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekOne.sum() << endl << "Weekly Max: " << weekOne.max() << endl
 					<< "Weekly Min: " << weekOne.min() << endl << "Valid Count: " << weekOne.size() << endl << "Greatest Delta Value: " << delta(weekOneArray) <<
 					" between days " << between << " and " << between + 1 << endl;
 				cin >> bloodSugar; //input next value
 			}
 			else //Prints out the week two summary
 			{
-				cout << "		Weekly Two Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekTwo.sum() << endl << "Weekly Max: " << weekTwo.max() << endl
+				cout << "		Week Two Summary\n" << "Weekly Blood Sugar Readings Sum: " << weekTwo.sum() << endl << "Weekly Max: " << weekTwo.max() << endl
 					<< "Weekly Min: " << weekTwo.min() << endl << "Valid Count: " << weekTwo.size() << endl << "Greatest Delta Value: " << delta(weekTwoArray) <<
 					" between days " << between << " and " << between + 1 << endl;
 				cin >> bloodSugar;// input next value
